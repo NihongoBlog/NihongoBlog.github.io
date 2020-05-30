@@ -105,3 +105,8 @@ $(document).ready(function(){
     $(createAudio).appendTo('.modal-body');
   });
 });
+$(document).ready(function(){
+  $(".nav-tabs a").click(function(){
+    $(this).tab('show');
+  });
+});

@@ -1,5 +1,6 @@
 .img-responsive {
     cursor: pointer;
+    border: inset;
 }
 .play-audio{
     cursor: pointer;
