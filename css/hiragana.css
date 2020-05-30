@@ -1,0 +1,23 @@
+.img-responsive {
+    cursor: pointer;
+}
+.play-audio{
+    cursor: pointer;
+    display: inline-block;
+}
+
+.modal-footer{
+    display: block !important;
+    text-align: center;
+}
+.container-right{
+    width: 50%;
+    float: right;
+}
+.container-left{
+    width: 50%;
+    float: left;
+}
+.img-col-center{
+    margin-left: 20%;
+}

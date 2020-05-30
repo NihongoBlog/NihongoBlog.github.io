@@ -1,0 +1,19 @@
+.nav-link{
+    margin-left: 25px;
+}
+.rounded {
+    height: 250px;
+}
+.intro {
+    margin-bottom: 0px;
+}
+.footer{
+    background-color: #6c757d;
+}
+.img-footer{
+    height: 100px;
+    width: 100%;
+}
+.img-col{
+    padding-bottom: 15px;
+}
