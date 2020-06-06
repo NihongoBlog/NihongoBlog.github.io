@@ -1,8 +1,15 @@
-/*!
- * Start Bootstrap - Blog Home (https://startbootstrap.com/template-overviews/blog-home)
- * Copyright 2013-2019 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-blog-home/blob/master/LICENSE)
- */
+
 body {
   padding-top: 56px;
+}
+.nav-link{
+  margin-left: 25px;
+}
+.btn-aside{
+  margin-bottom: 5px;
+  width: 200% !important;
+}
+.btn-aside2{
+  margin-bottom: 5px;
+  width: 100% !important;
 }
