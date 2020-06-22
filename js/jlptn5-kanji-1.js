@@ -22,6 +22,7 @@ changedRadio = [];
 $(document).ready(function(){
   $(".btn-submit").click(function(){
     var index;
+    var numOFCrrectAns = 0;
     // fill color correct answer
     question.forEach((element,count) => {
       var classRadio;
@@ -48,8 +49,11 @@ $(document).ready(function(){
         changedQue.push(classText);
       }else{
         changedQue.push(classText);
+        numOFCrrectAns = numOFCrrectAns + 1;
       } 
     });
+    $(window).scrollTop(0);
+    alert(numOFCrrectAns);
     
   });
   $(".btn-reset").click(function(){
@@ -76,5 +80,6 @@ $(document).ready(function(){
         $(changedRadio[index]).prop("checked",false);
       }
     }
+    $(window).scrollTop(0);
   })
 });
