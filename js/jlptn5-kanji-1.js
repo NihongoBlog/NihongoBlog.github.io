@@ -14,6 +14,31 @@ const question = [
   {
     question : 4,
     correctAnswer : 3
+  },
+  {
+    question : 5,
+    correctAnswer : 4
+  },
+  {
+    question : 6,
+    correctAnswer : 1
+  },
+  {
+    question : 7,
+    correctAnswer : 4
+  }
+  ,
+  {
+    question : 8,
+    correctAnswer : 3
+  },
+  {
+    question : 9,
+    correctAnswer : 2
+  },
+  {
+    question : 10,
+    correctAnswer : 3
   }
 
 ]
@@ -53,7 +78,7 @@ $(document).ready(function(){
       } 
     });
     $(window).scrollTop(0);
-    alert(numOFCrrectAns);
+    $(".result").append(numOFCrrectAns+"/10");
     
   });
   $(".btn-reset").click(function(){
@@ -81,5 +106,6 @@ $(document).ready(function(){
       }
     }
     $(window).scrollTop(0);
+    $(".result").text("Kết quả:");
   })
 });
