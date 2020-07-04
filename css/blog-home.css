@@ -11,3 +11,9 @@ body {
 .btn-aside2{
   margin-bottom: 5px;
 }
+#link{
+  color: #ffff;
+}
+.card-header{
+  background-color: rgb(218, 217, 217);
+}
