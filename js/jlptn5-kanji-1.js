@@ -78,8 +78,9 @@ $(document).ready(function(){
       } 
     });
     $(window).scrollTop(0);
-    $(".result").append(numOFCrrectAns+"/10");
-    
+    if(changedRadio.length != 0){
+      $(".result").append(numOFCrrectAns+"/10");
+    }
   });
   $(".btn-reset").click(function(){
     var index;

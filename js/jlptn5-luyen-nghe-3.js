@@ -1,7 +1,7 @@
 const question = [
     {
       question : 1,
-      correctAnswer : 2
+      correctAnswer : 4
     },
     {
       question : 2,
@@ -13,11 +13,11 @@ const question = [
     },
     {
       question : 4,
-      correctAnswer : 3
+      correctAnswer : 4
     },
     {
       question : 5,
-      correctAnswer : 4
+      correctAnswer : 3
     },
     {
       question : 6,
@@ -25,11 +25,7 @@ const question = [
     },
     {
       question : 7,
-      correctAnswer : 4
-    },
-    {
-      question : 8,
-      correctAnswer : 1
+      correctAnswer : 3
     }
   
   ]

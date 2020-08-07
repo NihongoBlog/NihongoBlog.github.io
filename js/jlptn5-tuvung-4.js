@@ -1,7 +1,7 @@
 const question = [
     {
       question : 1,
-      correctAnswer : 2
+      correctAnswer : 1
     },
     {
       question : 2,
@@ -9,7 +9,7 @@ const question = [
     },
     {
       question : 3,
-      correctAnswer : 1
+      correctAnswer : 2
     },
     {
       question : 4,
@@ -17,19 +17,28 @@ const question = [
     },
     {
       question : 5,
-      correctAnswer : 4
-    },
-    {
-      question : 6,
       correctAnswer : 2
     },
     {
-      question : 7,
-      correctAnswer : 4
+      question : 6,
+      correctAnswer : 1
     },
+    {
+      question : 7,
+      correctAnswer : 1
+    }
+    ,
     {
       question : 8,
       correctAnswer : 1
+    },
+    {
+      question : 9,
+      correctAnswer : 3
+    },
+    {
+      question : 10,
+      correctAnswer : 2
     }
   
   ]
@@ -72,7 +81,6 @@ const question = [
       if(changedRadio.length != 0){
         $(".result").append(numOFCrrectAns+"/10");
       }
-      
     });
     $(".btn-reset").click(function(){
       var index;

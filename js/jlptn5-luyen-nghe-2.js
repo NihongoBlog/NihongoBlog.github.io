@@ -1,19 +1,19 @@
 const question = [
     {
       question : 1,
-      correctAnswer : 2
-    },
-    {
-      question : 2,
       correctAnswer : 4
     },
     {
+      question : 2,
+      correctAnswer : 2
+    },
+    {
       question : 3,
-      correctAnswer : 1
+      correctAnswer : 2
     },
     {
       question : 4,
-      correctAnswer : 3
+      correctAnswer : 1
     },
     {
       question : 5,
@@ -21,15 +21,15 @@ const question = [
     },
     {
       question : 6,
-      correctAnswer : 2
-    },
-    {
-      question : 7,
       correctAnswer : 4
     },
     {
+      question : 7,
+      correctAnswer : 3
+    },
+    {
       question : 8,
-      correctAnswer : 1
+      correctAnswer : 2
     }
   
   ]
