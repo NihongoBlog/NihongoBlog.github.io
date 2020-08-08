@@ -96,6 +96,16 @@ const question = [
       }
       $(window).scrollTop(0);
       $(".result").text("Kết quả:");
-    })
+    });
+    $(".btn-script").click(function(){
+      
+      if($("#script").css("display") == 'none'){
+        $("#script").show();
+        $(".btn-script").text("Ẩn script");
+      }else{
+        $("#script").hide();
+        $(".btn-script").text("Hiển thị script");
+      }
+    });
   });
   
