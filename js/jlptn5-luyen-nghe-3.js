@@ -101,10 +101,10 @@ const question = [
       
       if($("#script").css("display") == 'none'){
         $("#script").show();
-        $(".btn-script").text("Ẩn script");
+        //$(".btn-script").text("Ẩn script");
       }else{
         $("#script").hide();
-        $(".btn-script").text("Hiển thị script");
+        //$(".btn-script").text("Hiển thị script");
       }
     });
   });
