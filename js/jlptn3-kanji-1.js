@@ -79,6 +79,7 @@ const question = [
       });
       $(window).scrollTop(0);
       if(changedRadio.length != 0){
+        $(".result").text("Kết quả:");      
         $(".result").append(numOFCrrectAns+"/10");
       }
     });
