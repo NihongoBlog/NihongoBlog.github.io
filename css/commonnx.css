@@ -5,3 +5,22 @@
 .img-grammar{
     width: 100%;
 }
+.btn-submit{
+    margin: 10px;
+}
+.btn-reset{
+    margin: 10px;
+}
+.py-5{
+    position: fixed;
+     width: 100%;
+    bottom: 0;
+}
+.content{
+    margin-bottom: 200px;
+}
+.link{
+    margin: 0px;
+    display: unset;
+    padding: 0px;
+}
